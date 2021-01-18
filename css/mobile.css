@@ -1,0 +1,26 @@
+/*  background:yellow;ejemplo */
+/*  display inherit los cuadra en columna */
+
+@media (max-width:600px)
+{ .products{display: inherit;
+height: auto;
+/*  que crezca ocupando el alto necesario */
+}
+.product {
+  margin-top: auto; /* margen hacia arriba */
+}
+
+.main_section {
+padding: 4%;
+}
+
+.middle_container, .mentions{
+display: inherit;
+}
+
+.modulo_pago input {
+  margin-top: 10px;
+  width: 80%;
+}
+
+}
